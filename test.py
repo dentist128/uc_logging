@@ -18,12 +18,7 @@
 # You should have received a copy of the GNU Affero General Public License
 # along with this program; if not, write to the Free Software Foundation,
 # Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
-import os
 import logging
-import multiprocessing as mp
-import threading
-from time import sleep
-import random
 import uc_logging
 
 

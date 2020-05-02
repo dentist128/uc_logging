@@ -31,7 +31,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="uc_logging",
-    version="0.0.1",
+    version="0.0.2",
     author="Eduard S. Markelov",
     author_email="markeloveduard@gmail.com",
     description="A set of classes and functions that extend the log package.",
@@ -43,9 +43,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: GNU Affero General Public License v3",
         "Operating System :: OS Independent"
-    ],
-    install_requires=[
-        "logging"
     ],
     python_requires='>=3.4, <4',
 )
